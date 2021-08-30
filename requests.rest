@@ -1,0 +1,13 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "rustinpiece@gmail.com",
+    "password": "password"
+}
+
+
+###
+
+GET http://localhost:3000/restricted
+auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJ1c3RpbnBpZWNlQGdtYWlsLmNvbSIsImlhdCI6MTYyOTk5MDIxMn0.mZJ1ZgnZbaAPiaLNBHA-t2F4lNwbykPWlbizX-C-E64
